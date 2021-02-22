@@ -4,7 +4,7 @@ import CountySuggestion from "../components/CountySuggestion";
 import CountySearch from "../components/CountySearch";
 import Layout from "../layouts/Layout";
 import Image from "next/image";
-import { FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaTwitter, FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Index() {
   const countySearchRef = createRef();
@@ -61,6 +61,13 @@ export default function Index() {
                     rel="noreferrer"
                   >
                     <FaFacebook className="ml-2" size="1.5em" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/vaccinatepaorg/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaInstagram className="ml-2" size="1.5em" />
                   </a>
                 </div>
               </div>
